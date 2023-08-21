@@ -20,6 +20,12 @@ h1{
     -webkit-text-stroke: 1px white;
 }
 
+.presentacion{
+    border-width: 1px;
+    background-color: aquamarine;
+    background-size: 100%;
+}
+
 h2{
     color: white;
     font-style: italic;
@@ -27,7 +33,7 @@ h2{
 }
 
 h3{
-    color: #33BBC5;
+    color: blue;
     text-align: center;
     
 }
