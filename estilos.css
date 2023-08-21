@@ -1,8 +1,33 @@
-body{
+html{
     background-color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr{
+    border-color: orange;
 }
 
 h1{
-    color: chartreuse;
+    color: tomato;
+    font-style: italic;
+    -webkit-text-stroke: 1px white;
+    border-color: tomato;
+}
+
+.dev{
+    color: tomato;
+    font-style: italic;
+    -webkit-text-stroke: 1px white;
+}
+
+h2{
+    color: white;
+    font-style: italic;
+    -webkit-text-stroke: 0.50px coral
+}
+
+h3{
+    color: #33BBC5;
+    text-align: center;
     
 }
