@@ -1,39 +1,59 @@
 html{
-    background-color: blueviolet;
+    background-image: url("./fondo.jpg");
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-hr{
-    border-color: orange;
-}
-
 h1{
-    color: tomato;
+    color:blue;
     font-style: italic;
-    -webkit-text-stroke: 1px white;
-    border-color: tomato;
-}
-
-.dev{
-    color: tomato;
-    font-style: italic;
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 0.50px white;
+    background-t;
+    
+   
 }
 
 .presentacion{
     border-width: 1px;
     background-color: aquamarine;
     background-size: 100%;
+
 }
 
 h2{
     color: white;
     font-style: italic;
-    -webkit-text-stroke: 0.50px coral
+    -webkit-text-stroke: 0.50px blue
 }
 
 h3{
     color: blue;
-    text-align: center;
-    
+    text-align: center; 
 }
+
+.opacidad {
+    position: absolute;
+ }
+  
+ .fondo {
+    width: 280px; height: 210px;
+    background-color: aqua;
+    filter:alpha(opacity=20);
+    -moz-opacity:0.2;
+    opacity: 0.2;
+    padding:10px;
+ }
+  
+ .texto {
+    width: 290px; height: 200px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+    padding:10px;  
+ }
